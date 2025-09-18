@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
   modules: ['motion-v/nuxt'],
+  image: {
+    domains: ['github.com'],
+  },
   fonts: {
     provider: 'none',
   },
