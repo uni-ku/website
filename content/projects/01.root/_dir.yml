@@ -1,0 +1,13 @@
+title: Root
+description: 解决 Uniapp 无法使用根部组件问题的创新工具
+navBadges:
+  - value: v1.0.0
+    type: default
+navigation.redirect: /projects/root/introduction
+collapse: false
+icon: lucide:folder-tree
+tags:
+  - 工具
+  - 开发
+  - Uniapp
+  - Vue3

@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
+  modules: ['motion-v/nuxt'],
+  fonts: {
+    provider: 'none',
+  },
   i18n: {
     defaultLocale: 'zh',
     locales: [
@@ -13,4 +17,4 @@ export default defineNuxtConfig({
     ],
   },
   compatibilityDate: '2024-07-06',
-});
+})
