@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   extends: ['shadcn-docs-nuxt'],
   modules: ['motion-v/nuxt'],
   image: {
-    domains: ['github.com'],
+    domains: ['github.com', 'www.github.com'],
   },
   fonts: {
     provider: 'none',
